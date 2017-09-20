@@ -31,7 +31,7 @@ def find_a(x)
 end
 
 def sum_array(x)
-  x.sum
+  x.inject {|y, z| y + z }
 end
 
 def add_s(x)
