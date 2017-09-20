@@ -36,4 +36,5 @@ end
 
 def add_s(x)
   y = x.split + "s"
+  y
 end
