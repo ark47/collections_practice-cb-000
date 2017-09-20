@@ -41,5 +41,6 @@ def add_s(x)
   else
     y << z + "s"
   end
+end
   y
 end
