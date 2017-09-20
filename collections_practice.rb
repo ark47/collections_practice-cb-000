@@ -39,4 +39,5 @@ def add_s(x)
   x.each do |z|
     y << z + "s"
   end
+  y
 end
