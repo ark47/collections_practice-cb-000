@@ -37,10 +37,11 @@ end
 def add_s(x)
   y = []
   x.each do |z|
-  if z[1]
+  if z == x[1]
+    y << z
   else
     y << z + "s"
   end
-end
+  end
   y
 end
